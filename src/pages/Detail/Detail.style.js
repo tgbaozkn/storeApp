@@ -4,9 +4,13 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create( {
     image: {
-        height: 300,
-        width: 300,
-        margin:3
+        height: 400,
+        width: 400,
+        margin: 3,
+        resizeMode: "contain",
+        marginTop: 40,
+        marginBottom: 10,
+        backgroundColor:"white"
     },
     container: {
         flex: 1,
@@ -24,12 +28,14 @@ export default StyleSheet.create( {
         fontSize: 15,
         fontWeight: "bold",
         textTransform: "capitalize",
-        marginTop:5
+        marginTop: 5,
+        textAlign:"center"
     },
     title: {
         fontSize: 30,
         textTransform: "uppercase",
-        fontWeight:"bold"
+        fontWeight: "bold",
+        textAlign:"center"
     },
     price: {
         fontSize: 18,
