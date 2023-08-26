@@ -13,7 +13,7 @@ const AuthProvider = ( { children } ) =>
   
     useEffect( () =>
     {
-        AsyncStorage.getItem( "@user" ).then( userSession =>
+        AsyncStorage.getItem( '@user' ).then( userSession =>
             {
             userSession &&
          
