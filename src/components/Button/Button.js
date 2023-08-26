@@ -5,7 +5,7 @@ import { ActivityIndicator } from 'react-native'
 const Button = ({text,onPress, loading}) => {
   return (
     <TouchableOpacity style={ styles.container } onPress={ onPress }>
-      {loading ? <ActivityIndicator color="white"/> :  <Text style={ styles.title } >{ text }</Text>}
+      {loading ? <ActivityIndicator color="gray"/> :  <Text style={ styles.title } >{ text }</Text>}
          
     </TouchableOpacity>
   )
