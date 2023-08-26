@@ -15,5 +15,10 @@ export default StyleSheet.create( {
         fontWeight: "bold",
         borderRadius: 10,
      
+    },
+    button: {
+        backgroundColor: "#964B00" ,
+        color: "white",
+        fontSize:50
     }
 })

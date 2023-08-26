@@ -6,7 +6,7 @@ const Detail = ( { route } ) =>
 {
   const apiUrl = process.env.EXPO_PUBLIC_API_URL + `/${ route.params.id }`;
   const { loading, error, data } = useFetch( apiUrl );
-  console.log(data)
+
   return (
     <View style={styles.container}>
       <Text style={ styles.title }>{ data.title}</Text>

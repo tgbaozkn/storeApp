@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View ,SafeAreaView} from 'react-native';
-import Router from './Router';
+
+import Wrapper from './Wrapper';
 
 export default function App() {
   return (
-        <Router/>
+        <Wrapper/>
   );
 }
 
